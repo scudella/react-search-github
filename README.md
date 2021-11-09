@@ -1,8 +1,7 @@
-## Starter Project
+## Search Github Users Project
 
+- See John Smilga github account for starter project
 - css provided (global styles, styled components)
-- folders/files already setup
-- all imports included (warnings)
 - index.js for easier imports
 
 ## Styled Components
@@ -69,14 +68,14 @@ version used - "react-router-dom": "^5.2.0",
 - Choose : Single Page Web Applications
 - Choose : React
 - Go to Settings Tab
-- Copy/Paste Domain, ClientID - can be public (or use .env)
+- Copy/Paste Domain, ClientID - Using .env
 - Add Domain -
-  for now http://localhost:3000 (DON'T COPY PASTE FROM URL BAR)
+  for now http://localhost:3000
 
   - Allowed Callback URLs
   - Allowed Logout URLs
   - Allowed Web Origins
-  - SAVE CHANGES!!!!!!!!!!!!!!!
+  - SAVE CHANGES!
 
 - Connections
   email,social
@@ -86,7 +85,7 @@ version used - "react-router-dom": "^5.2.0",
 
 ## Deployment
 
-[Netlify](https://www.netlify.com/)
+[Netlify](https://scud-react-search-github.netlify.app)
 
 ## Additional Info
 
