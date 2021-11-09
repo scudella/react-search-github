@@ -1,6 +1,7 @@
 import React from 'react';
 import { GithubContext } from '../context/context';
 import styled from 'styled-components';
+import { FaTwitter } from 'react-icons/fa';
 import { MdBusiness, MdLocationOn, MdLink } from 'react-icons/md';
 const Card = () => {
   const { githubUser } = React.useContext(GithubContext);
@@ -21,7 +22,9 @@ const Card = () => {
         <img src={avatar_url} alt={name} />
         <div>
           <h4>{name}</h4>
-          <p>@{twitter_username || 'nousername'}</p>
+          <p>
+            <FaTwitter /> @{twitter_username || 'nousername'}
+          </p>
         </div>
         <a href={html_url}>follow</a>
       </header>
